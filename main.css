@@ -1,0 +1,39 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: beige;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#letters {
+    margin-top: 15%;
+    text-align: center;
+    float: left;
+}
+
+button {
+    font-size: 14pt;
+}
+
+#title_box {
+    width: 100%;
+    background-color: lightgreen;
+    text-align: center;
+    float: right;
+}
+
+span {
+    width: 50%;
+    float: left;
+}
+
+pre {
+    font-size: 14pt;
+}
