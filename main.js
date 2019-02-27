@@ -48,11 +48,11 @@ function tryLetter(letter) {
         document.getElementById('gallows').setAttribute('src', 'gallows' + errors + '.png'); // gallows2.png
         if (errors == 6) {
             game_over = true;
-            alert("Game Over!\nMovie title: " + title);
+            alert("Igra je gotova!\nNaziv filma: " + title);
         }
         if (document.getElementById('film_title').innerHTML.indexOf('_') == -1) {
             game_over = true;
-            alert("Congratulations!");
+            alert("Cestitamo!");
         }
     }
 }
